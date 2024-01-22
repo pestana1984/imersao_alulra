@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar_navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 400px;
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+.sidebar_library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    margin-top: 10px;
+}
+
+.sidebar_library span {
+    color: #b3b3b3;
+    padding: 0 5px 10px 20px;
+}
+
+.add_playlist{
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 16px 10px;
+    margin: 10px 15px 10px 0;
+}
+
+.add_playlist h2 {
+    font-weight: bold;
+    margin: 10px 0 0 0 ;
+    padding: 0 10px 10px 20px;
+}
+
+.add_playlist p {
+    font-weight: normal;
+    padding: 5px 20px 10px 20px;
+}
+
+.add_playlist button{
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 15px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cookies {
+    padding: 20px;
+    height: 30px;
+    background-color: #121212;
+}
+
+.cookies a {
+    padding: 10px;
+    font-size: 12₢px;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.cookies a:hover {
+    text-decoration: underline;
+}
+
+.language button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #121212;
+    border: 1px solid #fff;
+    box-shadow: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 10px;
+}
